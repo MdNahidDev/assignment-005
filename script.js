@@ -10,3 +10,13 @@ const services = [
   { name: "Brac Helpline", subtitle: "Brac", number: "16445", icon: "brac.png" },
   { name: "Bangladesh Railway Helpline", subtitle: "Bangladesh Railways", number: "163", icon: "Bangladesh-Railway.png" }
 ];
+let heartCount = 0;
+let coinCount = 100;
+let copyCount = 0;
+
+// DOM refs
+const heartCountEl = document.getElementById("heartCount");
+const coinCountEl = document.getElementById("coinCount");
+const copyCountEl = document.getElementById("copyCount");
+const historyList = document.getElementById("historyList");
+const cardContainer = document.getElementById("cardContainer");
